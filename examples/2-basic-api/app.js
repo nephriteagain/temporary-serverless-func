@@ -22,5 +22,5 @@ const fetchData = async () => {
         result.innerHTML = `<h2>There was an error, please try again later</h2>`
     }
 }
-console.log('test')
+console.log("test")
 fetchData()
