@@ -10,7 +10,7 @@ const fetchData = async () => {
 
         result.textContent = data
     } catch (error) {
-        console.log(error.response)
+        // console.log(error.response)
         result.textContent = error.response.data
     }
 }
